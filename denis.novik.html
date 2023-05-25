@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+        --bg-color: #FFF;
+        --bg-secondary-color: #F6F6F6;
+        --text-color: #070707;
+        --text-secondary-color: #828282;
+        --base-font-size: 18px;
+        --base-line-height: 22px;
+    }
+
+    html,
+    body {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: var(--base-font-size);
+        line-height: var(--base-line-height);
+    }
+
+    .main-header ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+        list-style: none;
+        margin: 0;
+    }
+
+    .main-header ul a {
+        text-decoration: none;
+        color: var(--text-secondary-color);
+        line-height: var(--base-line-height);
+    }
+
+    .main-header ul a.a-active {
+        color: var(--text-color);
+    }
+
+    .row {
+        width: 100%;
+        max-width: 945px;
+        padding: 0 15px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .novik {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .designer {
+        text-align: center;
+    }
+
+    .About {
+    background-color: var(--bg-secondary-color);
+        justify-content: center;
+        gap: 61px;
+    }
+
+    .slill_instrument {
+        display: flex;
+    }
+
+    .icon {
+        display: flex;
+    }
+</style>
+
+<body>
+    <div class="row">
+        <div class="column">
+            <header class="main-header">
+                <nav>
+                    <ul>
+                        <a class="a-active" href="#">Home</a>
+                        <a href="#">About me</a>
+                        <a href="#">Skills</a>
+                        <a href="#">Portfolio</a>
+                        <a href="#">Contacts</a>
+                    </ul>
+                    <hr>
+                </nav>
+            </header>
+        </div>
+        <div class="novik">
+            <div class="name">
+                <h1> Denis <br> Novik </h1>
+            </div>
+            <div class="designer">
+                UX | UI designer <br>
+                24 years old, Minsk</div>
+            <div class="language">
+                <a href="#">RU</a>|<a href="#">ENG</a>
+            </div>
+        </div>
+        <div><img src="denis novik/novik.png"> </div>
+        <div class="About">
+            <div>
+                <h2>About me</h2>
+            </div>
+            <div class="About_text">
+                Hi, I'm Denis – UX/UI designer from Minsk.<br>
+                I'm interested in design and everything connected with it.<br>
+
+                I'm studying at courses "Web and mobile design<br>
+                interfaces" in IT-Academy.
+
+                Ready to implement excellent projects
+                with wonderful people.
+            </div>
+        </div>
+        <div class="skills">
+            <div>
+                <h2>Skills</h2>
+            </div>
+            <div class="skills_text">I work in such programs as</div>
+            <div class="slill_instrument">
+                <div class="instrumen_item">
+                    <img src="denis novik/PS.png">
+                </div>
+                <div class="instrumen_item"><img src="denis novik/Ai.png"></div>
+                <div class="instrumen_item"><img src="denis novik/Ae.png"></div>
+                <div class="instrumen_item"><img src="denis novik/Figma.png"></div>
+            </div>
+        </div>
+        <div class="Portfolio">
+            <h2>Portfolio</h2>
+            <div class="portfolio_list">
+                <a href="#"> <img src="denis novik/Portfolio1.png"></a><br>
+                <a href="#">Online fashion store - Homepage</a>
+                <a href="#"><img src="denis novik/reebok_web.png"></a><br>
+                <a href="#">Reebok Store - Concept</a>
+                <a href="#"><img src="denis novik/Braun.png"></a><br>
+                <a href="#">Braun Landing Page - Concept</a>
+            </div>
+        </div>
+        <div class="Contacts">
+            <h2>Contacts</h2>
+            <p> Want to know more or just chat? <br>
+                You are welcome!</p>
+            <div class="message">Send message</div>
+            <div class="icon">
+                <div class="icon_list"><img src="denis novik/In.png"></div>
+                <div class="icon_list"><img src="denis novik/inst.png"></div>
+                <div class="icon_list"><img src="denis novik/beh.png"></div>
+                <div class="icon_list"><img src="denis novik/dribble.png"></div>
+            </div>
+            <p>Like me on<br>
+                LinkedIn, Instagram, Behance, Dribble</p>
+        </div>
+    </div>
+</body>
+
+</html>
