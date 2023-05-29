@@ -5,6 +5,6 @@
 
 
 
-[Github Pages](https://github.com/DenisRose/Novik)
+[Github Pages](https://denisrose.github.io/Novik/)
 
 ![Скриншот сайта](./imgs/scrin.png)
