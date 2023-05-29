@@ -7,4 +7,4 @@
 
 [Github Pages] (https://github.com/DenisRose/Novik)
 
-![Скриншот сайта](./imgs/novik.png)
+![Скриншот сайта](./imgs/scrin.png)
