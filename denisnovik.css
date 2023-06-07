@@ -44,8 +44,16 @@ body {
     max-width: 945px;
     padding: 0 15px;
     margin: 0 auto;
-
 }
+@media screen and (min-width: 800px) {
+    .row {
+      margin: 1em 2em;
+    }
+    /*.designer {
+        display: none;}  не доделано*/ 
+    
+    
+  }
 
 .novik {
     display: flex;
