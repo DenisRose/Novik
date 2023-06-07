@@ -8,77 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="denisnovik.css">
 </head>
 <style>
-    body {
-        --bg-color: #FFF;
-        --bg-secondary-color: #F6F6F6;
-        --text-color: #070707;
-        --text-secondary-color: #828282;
-        --base-font-size: 18px;
-        --base-line-height: 22px;
-    }
 
-    html,
-    body {
-        margin: 0px;
-        padding: 0px;
-        font-family: 'Open Sans', sans-serif;
-        font-size: var(--base-font-size);
-        line-height: var(--base-line-height);
-    }
-
-    .main-header ul {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px 0;
-        list-style: none;
-        margin: 0;
-    }
-
-    .main-header ul a {
-        text-decoration: none;
-        color: var(--text-secondary-color);
-        line-height: var(--base-line-height);
-    }
-
-    .main-header ul a.a-active {
-        color: var(--text-color);
-    }
-
-    .row {
-        width: 100%;
-        max-width: 945px;
-        padding: 0 15px;
-        margin: 0 auto;
-        text-align: center;
-    }
-
-    .novik {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px 0;
-    }
-
-    .designer {
-        text-align: center;
-    }
-
-    .About {
-    background-color: var(--bg-secondary-color);
-        justify-content: center;
-        gap: 61px;
-    }
-
-    .slill_instrument {
-        display: flex;
-    }
-
-    .icon {
-        display: flex;
-    }
 </style>
 
 <body>
@@ -105,32 +38,34 @@
                 UX | UI designer <br>
                 24 years old, Minsk</div>
             <div class="language">
-                <a href="#">RU</a>|<a href="#">ENG</a>
+                <a  href="#">RU</a>|<a class="a-active" href="#">ENG</a>
             </div>
         </div>
-        <div><img src="./imgs/novik.png"> </div>
+        <div class="img_novik"><img src="./imgs/novik.jpg"> </div>
         <div class="About">
             <div>
                 <h2>About me</h2>
             </div>
             <div class="About_text">
-                Hi, I'm Denis – UX/UI designer from Minsk.<br>
-                I'm interested in design and everything connected with it.<br>
+                <p>Hi, I'm Denis – UX/UI designer from Minsk.<br>
+                    I'm interested in design and everything connected with it.<br></p>
 
-                I'm studying at courses "Web and mobile design<br>
-                interfaces" in IT-Academy.
+                <p>I'm studying at courses "Web and mobile design<br>
+                    interfaces" in IT-Academy.</p>
 
-                Ready to implement excellent projects
-                with wonderful people.
+                <p>Ready to implement excellent projects
+                    with wonderful people.</p>
             </div>
         </div>
         <div class="skills">
             <div>
                 <h2>Skills</h2>
             </div>
-            <div class="skills_text">I work in such programs as</div>
-            <div class="slill_instrument">
-                <div class="instrumen_item"> <img src="./imgs/ps.png"></div>
+            <div class="skills_text">
+                <p>I work in such programs as</p>
+            </div>
+            <div class="skill_instrument">
+                <div class="instrumen_item"><img src="./imgs/ps.png"></div>
                 <div class="instrumen_item"><img src="./imgs/ai.png"></div>
                 <div class="instrumen_item"><img src="./imgs/ae.png"></div>
                 <div class="instrumen_item"><img src="./imgs/figma.png"></div>
@@ -151,15 +86,17 @@
             <h2>Contacts</h2>
             <p> Want to know more or just chat? <br>
                 You are welcome!</p>
-            <div class="message">Send message</div>
+            <button>Send message</button>
             <div class="icon">
                 <div class="icon_list"><img src="./imgs/in.png"></div>
                 <div class="icon_list"><img src="./imgs/inst.png"></div>
                 <div class="icon_list"><img src="./imgs/beh.png"></div>
                 <div class="icon_list"><img src="./imgs/dribble.png"></div>
             </div>
-            <p>Like me on<br>
-                LinkedIn, Instagram, Behance, Dribble</p>
+            <div class="like"><p>Like me on<br></div>
+            <div class="networks"> <a href="#">LinkedIn</a>, <a href="#">Instagram</a>, <a href="#">Behance</a>, <a
+                    href="#">Dribble</a></p>
+            </div>
         </div>
     </div>
 </body>

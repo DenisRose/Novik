@@ -1,0 +1,158 @@
+body {
+    --bg-color: #FFF;
+    --bg-secondary-color: #F6F6F6;
+    --text-color: #070707;
+    --text-secondary-color: #828282;
+    --base-font-size: 18px;
+    --base-line-height: 22px;
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: var(--base-font-size);
+    line-height: var(--base-line-height);
+}
+
+.main-header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    list-style: none;
+    margin: 0;
+}
+
+.main-header ul a {
+    text-decoration: none;
+    color: var(--text-secondary-color);
+    line-height: var(--base-line-height);
+}
+
+.main-header ul a.a-active {
+    color: var(--text-color);
+}
+
+.name {
+    line-height: 50px;
+}
+
+.row {
+    width: 100%;
+    max-width: 945px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+
+.novik {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+
+}
+
+.img_novik {
+    padding-bottom: 104.06px;
+}
+
+.designer {
+    text-align: center;
+}
+
+.About {
+    background-color: var(--bg-secondary-color);
+    justify-content: center;
+    text-align: center;
+}
+
+.About_text {
+    padding-bottom: 130px;
+}
+
+.skills {
+    text-align: center;
+}
+
+.skill_instrument {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    padding: 30px;
+
+}
+
+.language {
+    transform: rotate(-90deg);
+    text-decoration: none;
+    color: #828282;
+    /*position: relative;
+    top: -52px;*/
+
+
+    line-height: var(--base-line-height);
+    /**не работает**/
+}
+.language a {
+    color: var(--text-secondary-color);
+    text-decoration: none; 
+}
+.language a.a-active {
+    color: var(--text-color);
+}
+
+p {
+    margin-top: 2em;
+    /* Отступ сверху */
+    margin-bottom: 2em;
+    /* Отступ снизу */
+}
+
+h2 {
+    padding-top: 181px;
+}
+
+.Portfolio {
+    background-color: var(--bg-secondary-color);
+    text-align: center;
+}
+
+.portfolio_list img {
+    padding-top: 60px;
+    margin-bottom: 20px;
+    }
+    .portfolio_list a {
+        
+        color: var(--text-color);
+        text-decoration: underline;
+
+    }
+.Contacts {
+    text-align: center;
+    
+}
+button {
+    background-color: black;
+    color: #FFFFFF;
+border-radius: 20px;
+padding: 10px;
+margin: 30px;
+}
+.like {
+    color: var(--text-secondary-color);
+    padding: 0px;
+
+}
+.networks a {
+    text-decoration: none;
+    color: var(--text-secondary-color);
+}
