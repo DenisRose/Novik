@@ -14,6 +14,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: var(--base-font-size);
     line-height: var(--base-line-height);
+    display: flex;
+    justify-content: center;
 }
 
 .main-header ul {
@@ -23,6 +25,9 @@ body {
     padding: 20px 0;
     list-style: none;
     margin: 0;
+}
+.mobile_header {
+    display: none; /* скрыл*/
 }
 
 .main-header ul a {
@@ -38,23 +43,37 @@ body {
 .name {
     line-height: 50px;
 }
+.mobile_novik {
+    display: none; 
+}
 
 .row {
     width: 100%;
     max-width: 945px;
     padding: 0 15px;
     margin: 0 auto;
+   
+    
 }
-@media screen and (min-width: 800px) {
+@media (min-width: 450px) {
     .row {
       margin: 1em 2em;
+    };
+    .main-header {
+        display: none;
+    };
+    /* .mobile_header {
+        display: block;
     }
-    /*.designer {
-        display: none;}  не доделано*/ 
-    
-    
-  }
+    .novik {
+        display: none;
+    }
+    .mobile_novik {
+        display: block;
+    } */
 
+}
+       
 .novik {
     display: flex;
     justify-content: space-between;
@@ -63,8 +82,10 @@ body {
 
 }
 
-.img_novik {
+.img_novik img {
     padding-bottom: 104.06px;
+    width: 100%;
+    height: auto;
 }
 
 .designer {
@@ -89,6 +110,7 @@ body {
     display: flex;
     justify-content: space-between;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .icon {
@@ -133,7 +155,10 @@ h2 {
     background-color: var(--bg-secondary-color);
     text-align: center;
 }
-
+.portfolio_list img {
+    width: 100%;
+    height: auto;
+}
 .portfolio_list img {
     padding-top: 60px;
     margin-bottom: 20px;
@@ -163,4 +188,4 @@ margin: 30px;
 .networks a {
     text-decoration: none;
     color: var(--text-secondary-color);
-}
+};
